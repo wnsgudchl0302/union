@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:log4jdbc:postgresql://localhost:5432/test
+    username: postgres
+    password: '1111'
+  jpa:
+    hibernate:
+      ddl-auto: update
